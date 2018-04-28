@@ -33,8 +33,8 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
     var diceDOM2 = document.querySelector(".dice-2");
     diceDOM.style.display = "block";
     diceDOM2.style.display = "block";
-    diceDOM.src = "https://s20.postimg.cc/b56bp9jn1/dice-" + dice   + ".png";
-    diceDOM2.src = "https://s20.postimg.cc/b56bp9jn1/dice-" + dice2   + ".png";
+    diceDOM.src = "pigGame/dice-" + dice   + ".png";
+    diceDOM2.src = "pigGame/dice-" + dice2   + ".png";
     
     
  if (dice !== 1 && dice2 !== 1) {
