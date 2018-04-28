@@ -33,10 +33,8 @@ document.querySelector(".btn-roll").addEventListener("click", function(){
     var diceDOM2 = document.querySelector(".dice-2");
     diceDOM.style.display = "block";
     diceDOM2.style.display = "block";
-    diceDOM.src = "externalfile:drive-71f063f0832f4eaea59920f4d8081006d998fa16/root/Jonas JS/Section 4 Game/dice-"
-    + dice   + ".png";
-    diceDOM2.src = "externalfile:drive-71f063f0832f4eaea59920f4d8081006d998fa16/root/Jonas JS/Section 4 Game/dice-"
-    + dice2   + ".png";
+    diceDOM.src = "dice-" + dice   + ".png";
+    diceDOM2.src = "dice-" + dice2   + ".png";
     
     
  if (dice !== 1 && dice2 !== 1) {
