@@ -1,6 +1,7 @@
 # pigGame
 This is a game I coded as a project for Jonas Schmedtmann's Udemy JavaScript Course
- https://gabester0.github.io/pigGame/
+
+See it live: https://gabester0.github.io/pigGame/
 /*
 GAME RULES:
 
